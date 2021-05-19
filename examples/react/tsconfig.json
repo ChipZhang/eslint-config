@@ -1,0 +1,5 @@
+{
+	"extends": "@chipzhang/tsconfig/tsconfig.react.json",
+	// ignore dot folders but not dot files
+	"include": ["**/*.tsx", "**/.*.tsx", "**/*.ts", "**/.*.ts"]
+}

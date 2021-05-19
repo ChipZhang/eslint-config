@@ -1,0 +1,10 @@
+
+# project files to ignore
+/examples/output*
+/examples/node/*
+!/examples/node/.eslintrc.js
+!/examples/node/tsconfig.json
+/examples/react/*
+!/examples/react/.eslintrc.js
+!/examples/react/tsconfig.json
+!/examples/react/babel.config.js
