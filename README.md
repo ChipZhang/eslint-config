@@ -33,13 +33,13 @@ This will also automatically install the needed ESLint configs (`eslint-config-*
 but not ESLint itself, parsers and plugins for TypeScript and Babel support.
 You should manually install the peer dependencies as follows:
 
-- ESLint itself: `eslint >= 7.5.0`
+- ESLint itself: `eslint: ^7.5.0`
 
 - TypeScript support for both Node.js and React projects:
-  `typescript >= 4.2.2`, `@typescript-eslint/eslint-plugin >= 4.1.1`, `@typescript-eslint/parser >= 4.1.1`
+  `typescript: ^4.2.4`, `@typescript-eslint/eslint-plugin: ^4.4.1`, `@typescript-eslint/parser: ^4.4.1`
 
 - Babel support for React projects:
-  `@babel/core >= 7.11.0`, `@babel/eslint-parser >= 7.11.0`, `@babel/eslint-plugin >= 7.11.0`
+  `@babel/core: ^7.11.0`, `@babel/eslint-parser: ^7.11.0`, `@babel/eslint-plugin: ^7.11.0`
 
 ## Configuration
 
