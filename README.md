@@ -1,6 +1,6 @@
 # An ESLint shareable config based on Airbnb, added JSON / Babel / TypeScript / Prettier support
 
-## Features
+## Overview
 
 - Separate configs for Node.js 12.0+ projects and React projects.
 
@@ -29,14 +29,17 @@ You can install this package as a development dependency:
 npm i -D eslint @chipzhang/eslint-config
 ```
 
-This will also automatically install the relevant ESLint parsers, plugins, configs, but not ESLint itself.
+This will also automatically install the needed ESLint configs (`eslint-config-*`) and some ESLint plugins (`eslint-config-*`),
+but not ESLint itself, parsers and plugins for TypeScript and Babel support.
 You should manually install the peer dependencies as follows:
 
-- `eslint` (version >= 7.5.0), the ESLint itself.
+- ESLint itself: `eslint >= 7.5.0`
 
-- `typescript` (version >= 4.2.2), to enable TypeScript support, for both Node.js and React projects.
+- TypeScript support for both Node.js and React projects:
+  `typescript >= 4.2.2`, `@typescript-eslint/eslint-plugin >= 4.1.1`, `@typescript-eslint/parser >= 4.1.1`
 
-- `@babel/core` (version >= 7.11.0), to enable Babel support, for React projects.
+- Babel support for React projects:
+  `@babel/core >= 7.11.0`, `@babel/eslint-parser >= 7.11.0`, `@babel/eslint-plugin >= 7.11.0`
 
 ## Configuration
 

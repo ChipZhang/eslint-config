@@ -5,11 +5,4 @@
 # ignore node related
 node_modules/
 *.tgz
-
 # project files to ignore
-/examples/output*
-!/examples/output-prev/
-!/examples/node/.dot-folder/
-!/examples/node/test_node_modules/node_modules/
-!/examples/react/.dot-folder/
-!/examples/react/test_node_modules/node_modules/

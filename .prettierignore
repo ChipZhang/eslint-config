@@ -1,8 +1,6 @@
 # ignore dot folders but not dot files
 .*/
-
 # project files to ignore
-/examples/output*
 /examples/node/*
 !/examples/node/.eslintrc.js
 !/examples/node/tsconfig.json
